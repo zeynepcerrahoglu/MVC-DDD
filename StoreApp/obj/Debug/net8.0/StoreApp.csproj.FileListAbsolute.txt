@@ -123,3 +123,5 @@ D:\MVC\Store\StoreApp\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.reso
 D:\MVC\Store\StoreApp\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\MVC\Store\StoreApp\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\MVC\Store\StoreApp\obj\Debug\net8.0\StoreApp.sourcelink.json
+D:\MVC\Store\StoreApp\bin\Debug\net8.0\libman.json
+D:\MVC\Store\StoreApp\bin\Debug\net8.0\StoreApp.staticwebassets.runtime.json

@@ -129,3 +129,5 @@ D:\MVC\Store\StoreApp\bin\Debug\net8.0\Entities.dll
 D:\MVC\Store\StoreApp\bin\Debug\net8.0\Entities.pdb
 D:\MVC\Store\StoreApp\bin\Debug\net8.0\Repositories.dll
 D:\MVC\Store\StoreApp\bin\Debug\net8.0\Repositories.pdb
+D:\MVC\Store\StoreApp\bin\Debug\net8.0\Services.dll
+D:\MVC\Store\StoreApp\bin\Debug\net8.0\Services.pdb

@@ -138,6 +138,73 @@
         }
       }
     },
+    "D:\\MVC\\Store\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MVC\\Store\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "D:\\MVC\\Store\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\msı\\.nuget\\packages\\",
+        "outputPath": "D:\\MVC\\Store\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\msı\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MVC\\Store\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MVC\\Store\\Entities\\Entities.csproj"
+              },
+              "D:\\MVC\\Store\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\MVC\\Store\\Repositories\\Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\MVC\\Store\\StoreApp\\StoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -167,6 +234,9 @@
               },
               "D:\\MVC\\Store\\Repositories\\Repositories.csproj": {
                 "projectPath": "D:\\MVC\\Store\\Repositories\\Repositories.csproj"
+              },
+              "D:\\MVC\\Store\\Services\\Services.csproj": {
+                "projectPath": "D:\\MVC\\Store\\Services\\Services.csproj"
               }
             }
           }

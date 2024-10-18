@@ -1,10 +1,12 @@
 ﻿using Entities.Models;
 using Microsoft.EntityFrameworkCore;
-namespace Repositories;
 
-public class RepositoryContext : DbContext
+namespace Repositories
+{
+    public class RepositoryContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
         public RepositoryContext(DbContextOptions<RepositoryContext> options)
         : base(options)
@@ -15,6 +17,7 @@ public class RepositoryContext : DbContext
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Product>()
             .HasData(
                 new Product() { ProductId = 1, ProductName = "Computer", Price = 17_000 },
@@ -23,6 +26,12 @@ public class RepositoryContext : DbContext
                 new Product() { ProductId = 4, ProductName = "Monitor", Price = 7_000 },
                 new Product() { ProductId = 5, ProductName = "Deck", Price = 1_500 }
             );
-        }
 
+            modelBuilder.Entity<Category>()
+            .HasData(
+                new Category() { CategoryId = 1, CategoryName = "Book" },
+                new Category() { CategoryId = 2, CategoryName = "Electronic" }
+            );
+        }
     }
+}

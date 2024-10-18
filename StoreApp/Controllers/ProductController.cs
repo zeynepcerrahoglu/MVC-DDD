@@ -22,8 +22,8 @@ namespace StoreApp.Controllers
 
         public IActionResult Get(int id)
         {
-            //var model = _manager.Product.GetOneProduct(id, false);
-            throw new NotImplementedException();
+            var model = _manager.Product.GetOneProduct(id, false);
+            return View(model);
         }
     }
 }
